@@ -4,6 +4,6 @@ repositório publico separado por listas de exercicios dedicado a publicar exerc
   Java(
     ListaUm
     ListaDois
-    ListaTres
+    Lista3
   )  
 }
