@@ -1,6 +1,7 @@
 organizar nomes das pastas do github
   Exemplo:
     'ListaUm' -> 'Lista1'
+e mudar no README de UAM-Exercises
 
 
 
