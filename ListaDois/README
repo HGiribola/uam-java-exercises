@@ -5,5 +5,5 @@
 5 - Conversor de temperatura em Graus Celcius para Graus Fahrenheit e Kelvin
 6 - Conversor de Velocidade em Km/h para m/s
 7 - Antecessor de numeros inteiros
-8 - Idade à partir do ano de nascimento
+8 - Idade à partir do ano de nascimento utiliza o import calendar
 9 - Calculadora de àrea de circunferencias à partir do raio
