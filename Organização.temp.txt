@@ -1,11 +1,5 @@
-organizar nomes das pastas do github
-  Exemplo:
-    'ListaUm' -> 'Lista1'
-e mudar no README de UAM-Exercises
-
-
-
-
-
+Lista3 -> Lista2 (Rename)
+ListaDois -> Lista1 (Rename)
+ListaUm -> Introdução (Rename)
 
 terminar Lista3
