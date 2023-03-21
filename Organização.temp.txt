@@ -1,3 +1,10 @@
 organizar nomes das pastas do github
   Exemplo:
     'ListaUm' -> 'Lista1'
+
+
+
+
+
+
+terminar Lista3
