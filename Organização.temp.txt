@@ -1,4 +1,1 @@
-ListaDois -> Lista1 (Rename)
-ListaUm -> Introdução (Rename)
-
-terminar Lista3
+terminar Lista2
