@@ -2,6 +2,6 @@ Estudar For, While e Do
 
 Fazer Lista1
 
-terminar Lista2
+Terminar Lista2
 
-colocar (Scanner.close();) no final de todo exercicio de Scanner
+Colocar 'Scanner.close();' no final de todo exercicio de Scanner e colocar '.trim()' nos campos de digitar letras para apagar os espaços
