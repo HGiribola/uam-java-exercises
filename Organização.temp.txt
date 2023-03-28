@@ -1,5 +1,3 @@
-Estudar For, While e Do
-
 Fazer Lista1
 
 Terminar Lista2
@@ -7,3 +5,5 @@ Terminar Lista2
 Colocar 'Scanner.close();' no final de todo exercicio de Scanner e colocar '.trim()' nos campos de digitar letras para apagar os espaços
 
 Renomear Pastas (Exemplo: Lista1If, Lista2For, etc...)
+
+Achar no Ulife Lista 3 e 4
