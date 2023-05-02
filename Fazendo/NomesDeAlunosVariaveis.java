@@ -1,19 +1,18 @@
-
-package metodos;
+package x;
 
 import java.util.Scanner;
 
-public class Metodos{
+public class Teste2{
     
     public static void main(String[] args){
         
         Scanner Teclado = new Scanner(System.in);
-        System.out.println("Quantos alunos existem na sala de Aula?");  
+        System.out.println("Quantos alunos existem na sala de Aula?");
         int NAlunos = Teclado.nextInt();
 
-        int aux1 = 1;
+        int aux = 1;
         do{            
-            System.out.println("Qual o nome do aluno numero " + aux1 + "?");
+            System.out.println("Qual o nome do aluno numero " + aux + "?");
             String NomeAluno = Teclado.nextLine();
             meuMetodo(NomeAluno);
             
@@ -21,8 +20,9 @@ public class Metodos{
                 System.out.println(name);
             }
             
-            aux1 ++;
+            aux ++;
 
-        } while(aux1 < NAlunos);
+        } while(aux < NAlunos);
     }
 }
+
