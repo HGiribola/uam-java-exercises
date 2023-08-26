@@ -1,0 +1,47 @@
+CREATE TABLE musica(
+	codigo_musica INTEGER PRIMARY KEY NOT NULL,
+	nome_musica VARCHAR(100) NOT NULL,
+	duracao_musica TIME NOT NULL /*MINUTO NÃO PASSA DE 60*/
+); /*1*/
+
+CREATE TABLE cd_categoria(
+	codigo_categoria INTEGER PRIMARY KEY NOT NULL,
+    menor_preco DECIMAL NOT NULL, /*R$*/
+    maior_preco DECIMAL NOT NULL /*R$*/
+); /*2*/
+
+CREATE TABLE faixa(
+    codigo_musica INTEGER PRIMARY KEY NOT NULL,
+    codigo_cd INTEGER NOT NULL,
+	numero_faixa INTEGER NOT NULL
+); /*3*/
+
+CREATE TABLE musica_autor(
+	codigo_musica INTEGER PRIMARY KEY NOT NULL,
+    codigo_autor INTEGER NOT NULL
+); /*4*/
+
+CREATE TABLE autor(
+	codigo_autor INTEGER PRIMARY KEY NOT NULL,
+    nome_autor VARCHAR(100) NOT NULL
+); /*5*/
+
+CREATE TABLE cd(
+	codigo_cd INTEGER PRIMARY KEY NOT NULL,
+    codigo_gravadora INTEGER NOT NULL,
+    nome_cd VARCHAR(100) NOT NULL,
+    preco_venda DECIMAL NOT NULL, /*R$*/
+    data_lancamento DATE NOT NULL, /* XX/XX/XXXX */
+    cd_indicado INTEGER NOT NULL
+); /*6*/
+
+CREATE TABLE gravadora(
+	codigo_gravadora INTEGER PRIMARY KEY NOT NULL,
+    nome_gravadora VARCHAR(100) NOT NULL,
+    endereco VARCHAR(100) NOT NULL,
+    telefone INTEGER NOT NULL, /*SÓ NÚMEROS*/
+    contato INTEGER NOT NULL,
+    url VARCHAR(1000) NOT NULL /*SITE*/
+); /*7*/
+
+USE meubanco;
